@@ -54,16 +54,12 @@ In the first screen of the application, you should provide your mobile
 phone number, in order to register in the Signal Messenger. You should
 also provide the input text file that includes the phone numbers to be
 checked.
-If your phone number is already registered through the Signal Contacts
-application, then by clicking next the input file is checked and the
-output file is generated. A confirmation popup will be displayed to inform
-you that the check has been completed.
-In case that it is the first time you use the Signal Contacts application,
-when clicking next, you will be sent an SMS with a confirmation code. You
-should insert this confirmation code in the next screen, without the "-".
+When clicking next, you will be sent an SMS with a confirmation code.
+You should insert this confirmation code in the next screen, without
+the "-". 
 When you click next, the input file is checked and the output file is
-generated. A confirmation popup will be displayed to inform
-you that the check has been completed.
+generated. A confirmation popup will be displayed to inform you that
+the check has been completed.
 
 Output
 ------
@@ -71,3 +67,5 @@ The output consists of a text file which includes all the phone numbers
 that belong to a Signal user.
 The output file is created in the same directory with the application
 executable.
+Moreover, a stats.txt file is created to show statistics about each
+checked input file.
