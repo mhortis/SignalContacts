@@ -33,7 +33,7 @@ the application executable.
 
 Input
 -----
-The phone numbers should be given in a text file, where each number
+The phone numbers can be given in multiple text files, where each number
 is given in a separate line.
 
 Example:
@@ -52,14 +52,16 @@ The application is run by issuing the following command:
 
 In the first screen of the application, you should provide your mobile
 phone number, in order to register in the Signal Messenger. You should
-also provide the input text file that includes the phone numbers to be
+also provide the input text files that include the phone numbers to be
 checked.
 When clicking next, you will be sent an SMS with a confirmation code.
 You should insert this confirmation code in the next screen, without
 the "-". 
-When you click next, the input file is checked and the output file is
-generated. A confirmation popup will be displayed to inform you that
-the check has been completed.
+When you click next, the input files are checked and the output files 
+are generated. 
+A status popup will appear to display the progress of the application.
+A confirmation popup will be displayed to inform you when the check
+has been completed.
 
 Output
 ------
